@@ -1,0 +1,86 @@
+body {
+    background-image: url('./bedroom.jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: center; 
+    margin: 0; 
+    padding: 0; 
+  
+  }
+  
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  h1 {
+    color: rgb(237, 237, 250);
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #h1{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    color: black;
+  }
+   
+  #p1{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: black;
+  }
+
+  .btns{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    justify-content: center; 
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    display: flex; gap: 50px;
+  }  
+
+  #btn1{
+    border-radius: 5px;
+    
+  }
+  #btn2{
+    border-radius: 5px;
+  }
+
+  #btn1:hover{
+    background-color: rgb(168, 190, 219);
+  }
+
+#btn2:hover{
+  background-color: rgb(168, 190, 219);
+}
+
+  
